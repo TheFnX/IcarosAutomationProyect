@@ -5,9 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"com.comejia.opencart.stepDefinitions", "com.comejia.opencart.hooks"},
-        snippets = CucumberOptions.SnippetType.CAMELCASE//,
-//        tags = "@FAV-123"
+        glue = {"com.opencart.us.stepDefinitions", "com.opencart.us.hooks"},
+        snippets = CucumberOptions.SnippetType.CAMELCASE
+        //tags = "@Test-HomePage"
 )
 public class CucumberRunnerTest extends AbstractTestNGCucumberTests {
 
